@@ -1,5 +1,5 @@
 INSERT INTO students (id, name, email, phone, github, start_date, end_date, cohort_id) VALUES (1, 'Armand Hilll', 'lera_hahn@dickens.org', '778-349-3299', 'aspernatur', '2018-02-12T08:00:00.000Z', '2018-04-20T07:00:00.000Z', 1);
-INSERT INTO students (id, name, email, phone, github, start_date, end_date, cohort_id) VALUES (2, 'Stephanie Wolff', 'darius.homenick@tod.ca', '778-125-2216', 'rem', '2018-02-12T08:00:00.000Z', '2018-04-20T07:00:00.000Z', 1);
+INSERT INTO students (id, name, email, phone, start_date, end_date, cohort_id) VALUES (2, 'Stephanie Van Edgom', 'darius.homenick@tod.ca', '778-125-2216', '2018-02-12T08:00:00.000Z', '2018-04-20T07:00:00.000Z', 1);
 INSERT INTO students (id, name, email, phone, github, start_date, end_date, cohort_id) VALUES (3, 'Stan Miller', 'mcdermott.maxie@schoen.com', '086-503-5484', 'qui', '2018-02-12T08:00:00.000Z', '2018-04-20T07:00:00.000Z', 1);
 INSERT INTO students (id, name, email, phone, github, start_date, end_date, cohort_id) VALUES (4, 'Elliot Dickinson', 'derrick_pollich@gmail.com', '778-848-9923', 'dolore', '2018-02-12T08:00:00.000Z', '2018-04-20T07:00:00.000Z', 1);
 INSERT INTO students (id, name, email, phone, github, start_date, end_date, cohort_id) VALUES (5, 'Lloyd Boehm', 'ebba.deckow@yahoo.com', '860-831-0563', 'necessitatibus', '2018-02-12T08:00:00.000Z', '2018-04-20T07:00:00.000Z', 1);
@@ -14,4 +14,5 @@ INSERT INTO students (id, name, email, phone, github, start_date, end_date, coho
 INSERT INTO students (id, name, email, phone, github, start_date, end_date, cohort_id) VALUES (14, 'Clint Cremin', 'everardo_kovacek@joshuah.net', '979-918-2964', 'laborum', '2018-02-12T08:00:00.000Z', '2018-04-20T07:00:00.000Z', 1);
 INSERT INTO students (id, name, email, phone, github, start_date, end_date, cohort_id) VALUES (15, 'Maximillia Willms', 'destin_berge@toy.com', '017-222-2210', 'pariatur', '2018-02-12T08:00:00.000Z', '2018-04-20T07:00:00.000Z', 1);
 INSERT INTO students (id, name, email, phone, github, start_date, end_date, cohort_id) VALUES (16, 'Carmel Grant', 'marcelino_durgan@hotmail.com', '778-971-9498', 'sed', '2018-02-12T08:00:00.000Z', '2018-04-20T07:00:00.000Z', 1);
+INSERT INTO students (id, name, email, phone, start_date, end_date, cohort_id) VALUES (17, 'Sayantan Basu', 'sayantanbasu@live.in', '807-971-9498', '2018-02-12T08:00:00.000Z', '2018-04-20T07:00:00.000Z', 1);
 ALTER SEQUENCE students_id_seq RESTART WITH 193;
