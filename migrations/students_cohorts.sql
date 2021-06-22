@@ -16,12 +16,4 @@ CREATE TABLE students (
   cohort_id INTEGER REFERENCES cohorts(id) ON DELETE CASCADE
 );
 
-CREATE TABLE assignments (
-id SERIAL PRIMARY KEY NOT NULL,
-name VARCHAR(255),
-content VARCHAR(255),
-day VARCHAR(255),
-chapter INTEGER,
-duration INTEGER
-);
 
